@@ -113,3 +113,67 @@ nav .menu a {
     color: #ffffff;
     cursor: pointer;
 }
+
+#notes {
+    background-color: #f9555500;
+}
+
+#notes .notes-container {
+    width: 85%;
+    max width: 1600px;
+    margin: 0 auto;
+    
+}
+
+#notes .notes-container .notes-box {
+    display: flex;
+    gap: 24px;
+}
+
+.notes-box .notes-cards {
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 6px 50px 0 #00000025;
+    max-width: 267px;
+}
+
+.notes-cards img {
+    max-width: 44px;
+    margin-bottom: 30px;
+    background-color: #f95555;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.notes-cards h3 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.notes-cards p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
+
+.section-heading {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 44px;
+}
+
+.section-heading h2 {
+    font-size: 48px;
+    color: #001931; 
+    font-weight: Bold;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.section-header p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #627382; 
+}
