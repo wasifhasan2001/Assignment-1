@@ -44,3 +44,72 @@ nav .menu a {
     color: #ffffff;
     cursor: pointer;
 }
+
+#banner {
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(assets/hero-bg.png);
+
+}
+
+#banner .banner-content {
+    padding: 115.5px 120px 179.5px 120px;
+    max-width: 1360px;
+    color: white;
+    font-size: 18px;
+}
+
+#banner .banner-content h1{
+    padding: 115.5 120 179.5 120;
+    font-size: 770px, 168px;
+    font-weight: 600;
+    color: white;
+    font-size: 72px;
+}
+
+#banner .banner-content p{
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+
+#banner .banner-content #abc{
+    font-size: 15px;
+    background-color: white;
+    display: inline-block;
+    font-weight: bold;
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 500px;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+    border-radius: 1000px;
+}
+
+#banner .banner-content .green{
+    color: #30B868;
+}
+
+.btn1 {
+    background-color: #30b868;
+    padding: 16px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn2 {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 16px 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+}
